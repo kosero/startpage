@@ -7,7 +7,7 @@ html {
   align-items: center;
   display: flex;
   color: #ffffff;
-  background: #ffffff;
+  background: #151515;
   height: 100%;
   width: 100%;
   justify-content: center;
@@ -46,6 +46,7 @@ html {
 #arkaplan3 {
   background: #ffffff;
   border-radius: 15px;
+  border: 0px solid #ffffff;;
   width: 535px;
   height: 55px;
   margin-left: 15px;
@@ -59,7 +60,7 @@ html {
   height: 55px;
   text-align: center;
   text-decoration: none;
-  border: 1.8px solid #ffffff;
+  border: 1px solid #ffffff;
   color: #ffffff;
   background: #0f0f0f;
   font-family: Font;
@@ -67,10 +68,25 @@ html {
   border-radius: 15px;
 }
 
+#dugme {
+  width: 55px;
+  height: 55px;
+  border-radius: 0px 15px 15px 0px;
+  background: #151515 url("/assets/search.png") no-repeat;
+  background-size: 26px;
+  background-position: center;
+  border: none;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 530px;
+}
+
 img {
   height: 600px;
   width: 290px;
-  margin-right: 2em;
+  margin: auto;
+  margin-right: 1em;
+  display: block;  
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
