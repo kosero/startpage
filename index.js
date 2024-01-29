@@ -16,3 +16,17 @@ function showTime() {
 }
 
 showTime();
+
+function aramaYap() {
+	let inputMetni = document.getElementById("display").value;
+
+	if (inputMetni.trim() === "") {
+	  alert("Boş olmaz.");
+	  return;
+	}
+
+	let googleAramaURL = "https://www.google.com/search?q=";
+	let tamURL = googleAramaURL + encodeURIComponent(inputMetni);
+	
+	window.location.href = tamURL;
+  }

@@ -7,20 +7,19 @@ html {
   align-items: center;
   display: flex;
   color: #ffffff;
-  background: #151515;
+  background: #ffffff;
   height: 100%;
   width: 100%;
   justify-content: center;
 }
 
-body {
+#yatakodasi {
   align-items: center;
   display: flex;
   justify-content: center;
   height: 100%;
   width: 100%;
   color: #ffffff;
-  background: #1a1a1a;
 }
 
 #arkaplan1 {
@@ -42,6 +41,30 @@ body {
   padding: 1em;
   font-family: Font;
   box-shadow: 0px 25px 30px rgba(0, 0, 0, 0.6), 0px 15px 15px rgba(0, 0, 0, 0.3), 0px 30px 50px rgba(0, 0, 0, 0.4), 0px -5px 10px rgba(0, 0, 0, 0.15);
+}
+
+#arkaplan3 {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 535px;
+  height: 55px;
+  margin-left: 15px;
+  margin-top: 33em;
+  position: absolute;
+  font-family: Font;
+}
+
+#display {
+  width: 535px;
+  height: 55px;
+  text-align: center;
+  text-decoration: none;
+  border: 1.8px solid #ffffff;
+  color: #ffffff;
+  background: #0f0f0f;
+  font-family: Font;
+  font-size: 1.1em;
+  border-radius: 15px;
 }
 
 img {
