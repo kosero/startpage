@@ -9,14 +9,36 @@ html {
   color: #ffffff;
   background: #151515;
   height: 100%;
+  width: 100%;
   justify-content: center;
 }
 
 body {
+  align-items: center;
   display: flex;
-  margin-right: 9em;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+  background: #1a1a1a;
+}
+
+#arkaplan1 {
+  display: flex;
+  margin-right: 1em;
   background: #0f0f0f;
   border-radius: 15px;
+  padding: 1em;
+  font-family: Font;
+  box-shadow: 0px 25px 30px rgba(0, 0, 0, 0.6), 0px 15px 15px rgba(0, 0, 0, 0.3), 0px 30px 50px rgba(0, 0, 0, 0.4), 0px -5px 10px rgba(0, 0, 0, 0.15);
+}
+
+#arkaplan2 {
+  display: flex;
+  background: #0f0f0f;
+  border-radius: 15px;
+  width: 300px;
+  height: 604px;
   padding: 1em;
   font-family: Font;
   box-shadow: 0px 25px 30px rgba(0, 0, 0, 0.6), 0px 15px 15px rgba(0, 0, 0, 0.3), 0px 30px 50px rgba(0, 0, 0, 0.4), 0px -5px 10px rgba(0, 0, 0, 0.15);
