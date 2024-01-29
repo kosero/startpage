@@ -12,7 +12,7 @@ function showTime() {
 	document.getElementById(
 		"tarih"
 	).innerHTML = `${today}, ${hour}:${minute}:${second} - ${day}/${month}/${year}`;
-	setTimeout(showTime, 1000); // Her saniyede güncellemek için 1000 ms (1 saniye) bekletiyoruz.
+	setTimeout(showTime, 1000); 
 }
 
 showTime();
