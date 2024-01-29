@@ -72,7 +72,7 @@ html {
   width: 55px;
   height: 55px;
   border-radius: 0px 15px 15px 0px;
-  background: #151515 url("/assets/search.png") no-repeat;
+  background: #151515 url("./assets/search.png") no-repeat;
   background-size: 26px;
   background-position: center;
   border: none;
