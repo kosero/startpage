@@ -72,6 +72,13 @@ function aramaYap() {
                 break;
             }
 
+	case "!wa":
+            {
+                let waGeriKalanMetin = kelimeler.slice(1).join(" ");
+                aramaURL = "https://wiki.archlinux.org/index.php?search=" + encodeURIComponent(waGeriKalanMetin);
+                break;
+            }
+
         default:
             aramaURL = "https://www.google.com/search?q=" + encodeURIComponent(inputMetni);
             break;
