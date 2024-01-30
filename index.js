@@ -79,3 +79,7 @@ function aramaYap() {
 
     window.location.href = aramaURL;
 }
+
+window.onload = function() {
+    document.getElementById("display").focus();
+};
