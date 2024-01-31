@@ -89,4 +89,6 @@ function aramaYap() {
 
 window.onload = function() {
     document.getElementById("display").focus();
+
 };
+

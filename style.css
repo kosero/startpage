@@ -36,8 +36,6 @@ html {
   display: flex;
   background: #0f0f0f;
   border-radius: 15px;
-  width: 300px;
-  height: 604px;
   padding: 1em;
   font-family: Font;
   box-shadow: 0px 25px 30px rgba(0, 0, 0, 0.6), 0px 15px 15px rgba(0, 0, 0, 0.3), 0px 30px 50px rgba(0, 0, 0, 0.4), 0px -5px 10px rgba(0, 0, 0, 0.15);
@@ -81,14 +79,22 @@ html {
   margin-top: 530px;
 }
 
-img {
+#reibody1 {
   height: 600px;
   width: 290px;
   margin: auto;
   margin-right: 1em;
   display: block;  
-  border-radius: 10px;
+  border-radius: 13px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#reibody2 {
+  height: 600px;
+  width: 290px;
+  margin: auto;
+  display: block;  
+  border-radius: 13px;
 }
 
 nav {
