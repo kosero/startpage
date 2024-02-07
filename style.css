@@ -8,6 +8,7 @@ html {
   display: flex;
   color: #ffffff;
   background: #151515;
+  background-image: url("./assets/maxresdefault.jpg");
   height: 100%;
   width: 100%;
   justify-content: center;
