@@ -78,6 +78,12 @@ function aramaYap() {
                 aramaURL = "https://wiki.archlinux.org/index.php?search=" + encodeURIComponent(waGeriKalanMetin);
                 break;
             }
+    case "!translate":
+        {
+            let translateGeriKalanMetin = kelimeler.slice(1).join(" ");
+            aramaURL = "https://translate.google.com/?sl=auto&tl=tr&text=" + encodeURIComponent(translateGeriKalanMetin);
+            break;
+        }
 
         default:
             aramaURL = "https://www.google.com/search?q=" + encodeURIComponent(inputMetni);
