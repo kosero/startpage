@@ -152,7 +152,7 @@ li:first-child {
 a,
 .green {
   text-decoration: none;
-  color: hsla(202, 56%, 38%, 1);
+  color: hsla(206, 67%, 48%, 1);
   transition: 0.4s;
   padding: 3px;
   font-size: 1.1em;
@@ -160,7 +160,7 @@ a,
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(202, 56%, 38%, 0.2);
+    background-color: hsla(206, 67%, 48%, 0.2);
   }
 }
 
