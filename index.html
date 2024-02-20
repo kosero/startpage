@@ -1,67 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$HOME</title>
-    <link rel="stylesheet" href="./src/assets/main.css">
-    <link rel="icon" href="./src/assets/rounded-in-photoretrica.ico" type="image/x-icon" />
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-  </head>
-
-  <body>
-    <div id="app">
-      <div id="background1">
-        <div class="image">
-          <img id="reibody1" alt="Rei_Ayanami_Moon" src="./src/assets/Rei_Ayanami_Moon.jpg">
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>$HOME</title>
+        <link rel="icon" href="./src/rounded-in-photoretrica.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    
+    <body>
+        <div id="kutu0">
+            <img id="reimoon" src="./src/Rei_Ayanami_Moon.jpg" alt="Rei_Ayanami_Moon">
+            <nav>
+                <h1>Everything is a conspiracy.</h1>
+                <h2 id="date"></h2>
+            <ul>
+                <li>~/General</li>
+                <li><a href="https://chat.openai.com/">ChatGPT</a></li>
+                <li><a href="https://drive.google.com/drive/u/0/my-drive">Drive</a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
+                <li><a href="https://tr.pinterest.com">Pinterest</a></li>
+                <li><a href="https://www.youtube.com">Youtube</a></li>
+            </ul>
+            <ul>
+                <li>~/Desktop</li>
+                <li><a href="https://animecix.net">AnimeciX</a></li>
+                <li><a href="https://open.spotify.com">Spotify</a></li>
+                <li><a href="https://myanimelist.net/profile/Kosero">MyAnimeList</a></li>
+                <li><a href="https://wallhaven.cc">Wallhaven</a></li>
+            </ul>
+            <ul>
+                <li>~/Documents</li>
+                <li><a href="https://github.com/kosero">Github</a></li>
+                <li><a href="https://wiki.archlinux.org">ArchWiki</a></li>
+            </ul>
+            <ul>
+                <li>~/Other</li>
+                <li><a href="https://aur.archlinux.org">AUR</a></li>
+                <li><a href="https://flathub.org">Flathub</a></li>
+            </ul>
         </div>
-        <nav>
-          <h1>Everything is a conspiracy.</h1>
-          <h2 id="date"></h2>
-          <ul>
-            <li>~/General</li>
-            <li><a :href="general.ChatGPT">ChatGPT</a></li>
-            <li><a :href="general.Discord">Discord</a></li>
-            <li><a :href="general.Gmail">Gmail</a></li>
-            <li><a :href="general.Pinterest">Pinterest</a></li>
-            <li><a :href="general.Youtube">Youtube</a></li>
-          </ul>
-          <ul>
-            <li>~/Desktop</li>
-            <li><a :href="desktop.AnimeciX">AnimeciX</a></li>
-            <li><a :href="desktop.Spotify">Spotify</a></li>
-            <li><a :href="desktop.MyAnimeList">MyAnimeList</a></li>
-            <li><a :href="desktop.Wallhaven">Wallhaven</a></li>
-            <li><a :href=""></a></li>
-          </ul>
-          <ul>
-            <li>~/Documents</li>
-            <li><a :href="documents.Github">Github</a></li>
-            <li><a :href="documents.ArchWiki">ArchWiki</a></li>
-            <li><a :href=""></a></li>
-            <li><a :href=""></a></li>
-            <li><a :href=""></a></li>
-          </ul>
-          <ul>
-            <li>~/Other</li>
-            <li><a :href="other.AUR">AUR</a></li>
-            <li><a :href="other.Flathub">Flathub</a></li>
-            <li><a :href=""></a></li>
-            <li><a :href=""></a></li>
-            <li><a :href=""></a></li>
-          </ul>
-          <div id="background3">
-            <input id="display" placeholder="..." onkeydown="if (event.key === 'Enter') WebSearch()">
-          </div>
-          <button id="searchButton" onclick="WebSearch()"></button>
-        </nav>
-      </div>
-      <div id="background2">
-        <img id="reibody2" src="./src/assets/reisuit.png" alt="reisuit">
-      </div>
-    </div>
-  </body>
-
-<script src="./src/main.js"></script>
+        <div id="buttonArkaplan">
+            <input id="searchText" placeholder="..." onkeydown="if (event.key === 'Enter') WebSearch()">
+        </div>
+        <button id="searchButton" onclick="WebSearch()"></button>
+        <div id="kutu1">
+            <img id="reisuit" src="./src/reisuit.png" alt="reisuit">
+        </div>
+    </body>
+    <script src="./main.js"></script>
 </html>

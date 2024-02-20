@@ -1,35 +1,3 @@
-// Vue
-const { createApp } = Vue
-
-createApp({
-    data() {
-        return{
-            general: {
-                ChatGPT:     "https://chat.openai.com/",
-                Discord:     "https://discord.com/channels/1154598232651997214/1198258098297643008",
-                Gmail:       "https://gmail.com/",
-                Pinterest:   "https://tr.pinterest.com/",
-                Youtube:     "https://www.youtube.com/",
-            },
-            desktop: {
-                AnimeciX:    "https://animecix.net/",
-                Spotify:     "https://open.spotify.com/",
-                MyAnimeList: "https://myanimelist.net/profile/Kosero",
-                Wallhaven:   "https://wallhaven.cc/",
-            },
-            documents: {
-                Github:      "https://github.com/kosero",
-                ArchWiki:    "https://wiki.archlinux.org/",
-            },
-            other: {
-                AUR:         "https://aur.archlinux.org/",
-                Flathub:     "https://flathub.org/"
-            }
-        }
-    }
-}).mount('#app')
-
-
 // date and time
 function showTime() {
 	const date = new Date();
@@ -50,10 +18,9 @@ function showTime() {
 
 showTime();
 
-
 // web search
 function WebSearch() {
-    let inputText = document.getElementById("display").value.trim();
+    let inputText = document.getElementById("searchText").value.trim();
 
     if (inputText === "") {
         alert("It won't be empty.");

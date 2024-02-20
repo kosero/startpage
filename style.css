@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "Font";
+  src: url("./src/JetBrains.ttf");
+}
+
+html {
+    color: #fff;
+    background: #151515;
+    height: 100%;
+    font-family: Font;
+}
+
+body {
+    color: #ffffff;
+    background: #151515;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    color: #fff;
+    background: #0b0c0d;
+}
+
+nav {
+  display: grid;
+  grid-row-gap: 1em;
+  grid-template-columns: 1fr 1fr;
+  min-width: 24em;
+  grid-auto-rows: max-content;
+}
+
+h1 {
+  font-size: 2em;
+  margin-left: 0.7em;
+  font-weight: 600;
+  grid-column: 1/-1;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #c5c5c5;
+  grid-column: 1/-1;
+  text-align: center;
+  margin-bottom: 2.3em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  list-style-type: none;
+}
+
+li {
+  line-height: 1.4em;
+  margin-left: 4.8em;
+}
+
+li:first-child {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  line-height: 2em;
+  margin-left: 2.5em;
+}
+
+a {
+  color: hsla(206, 67%, 48%, 1);
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5e5e5e;
+  font-style: italic;
+}
+
+#kutu0 {
+    height: 600px;
+    width: 900px;
+    display: flex;
+    border-radius: 17px;
+    border: 1px solid hsla(206, 67%, 48%, 1);
+    margin: 10px;
+    box-shadow: 0px 25px 30px rgba(0, 0, 0, 0.6), 0px 15px 15px rgba(0, 0, 0, 0.3), 0px 30px 50px rgba(0, 0, 0, 0.4), 0px -5px 10px rgba(0, 0, 0, 0.15);
+}
+
+#kutu1  {
+    height: 600px;
+    width: 300px;
+    border-radius: 17px;
+    border: 1px solid hsla(206, 67%, 48%, 1);
+    margin: 10px;
+    box-shadow: 0px 25px 30px rgba(0, 0, 0, 0.6), 0px 15px 15px rgba(0, 0, 0, 0.3), 0px 30px 50px rgba(0, 0, 0, 0.4), 0px -5px 10px rgba(0, 0, 0, 0.15);
+}
+
+#reimoon {
+    height: 570px;
+    width: 270px;
+    padding: 15px;
+    border-radius: 27px;
+}
+
+#reisuit {
+    height: 570px;
+    width: 270px;
+    padding: 15px;
+    border-radius: 27px;
+}
+
+#buttonArkaplan {
+    border: 0px solid #ffffff;;
+    margin-top: 480px;
+    margin-right: 50px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+#searchText {
+    width: 560px;
+    height: 55px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    color: #ffffff;
+    background: #0f0f0f;
+    font-family: Font;
+    font-size: 1.1em;
+}
+
+#searchButton {
+    width: 55px;
+    height: 55px;
+    border-radius: 0px 30px 30px 0px;
+    background: #151515 url("./src/search.png") no-repeat;
+    background-size: 26px;
+    background-position: center;
+    border: none;
+    position: absolute;
+    margin-left: 465px;
+    margin-top: 480px;
+}
