@@ -97,6 +97,6 @@ function WebSearch() {
 
 // display focus
 window.onload = function() {
-    document.getElementById("display").focus();
+    document.getElementById("searchText").focus();
 
 };
