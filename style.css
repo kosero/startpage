@@ -89,7 +89,7 @@ a:hover {
     width: 900px;
     display: flex;
     border-radius: 17px;
-    border: 1px solid hsla(206, 67%, 48%, 1);
+    border: 1px solid hsla(206, 67%, 48%);
     margin: 10px;
     box-shadow: 0px 25px 30px rgba(0, 0, 0, 0.6), 0px 15px 15px rgba(0, 0, 0, 0.3), 0px 30px 50px rgba(0, 0, 0, 0.4), 0px -5px 10px rgba(0, 0, 0, 0.15);
 }
@@ -98,7 +98,7 @@ a:hover {
     height: 600px;
     width: 300px;
     border-radius: 17px;
-    border: 1px solid hsla(206, 67%, 48%, 1);
+    border: 1px solid hsla(206, 67%, 48%);
     margin: 10px;
     box-shadow: 0px 25px 30px rgba(0, 0, 0, 0.6), 0px 15px 15px rgba(0, 0, 0, 0.3), 0px 30px 50px rgba(0, 0, 0, 0.4), 0px -5px 10px rgba(0, 0, 0, 0.15);
 }
@@ -136,6 +136,11 @@ a:hover {
     background: #0f0f0f;
     font-family: Font;
     font-size: 1.1em;
+}
+
+#searchText:focus {
+    border: 2px solid hsla(206, 67%, 48%);
+    outline: none;
 }
 
 #searchButton {
