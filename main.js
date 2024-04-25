@@ -12,10 +12,9 @@ function showTime() {
 
 	document.getElementById(
 		"date"
-	).innerHTML = `${today}, ${hour}:${minute}:${second} - ${day}/${month}/${year}`;
+	).innerHTML = `${today}, ${hour}:${minute} - ${day}/${month}/${year}`;
 	setTimeout(showTime, 1000); 
 }
-
 showTime();
 
 // web search
@@ -23,7 +22,7 @@ function WebSearch() {
     let inputText = document.getElementById("searchText").value.trim();
 
     if (inputText === "") {
-        alert("It won't be empty.");
+        window.alert("Anime kizlari.");
         return;
     }
 
@@ -32,17 +31,16 @@ function WebSearch() {
     let searchURL = "";
 
     switch (firstWord) {
+        case "youtube":
+            {
+                searchURL = "https://www.youtube.com/";
+                break;
+            }
+
         case "!yt":
             {
                 let ytRemainingText = words.slice(1).join(" ");
                 searchURL = "https://www.youtube.com/results?search_query=" + encodeURIComponent(ytRemainingText);
-                break;
-            }
-
-        case "!wk":
-            {
-                let wkRemainingText = words.slice(1).join(" ");
-                searchURL = "https://tr.wikipedia.org/wiki/" + encodeURIComponent(wkRemainingText);
                 break;
             }
 
@@ -53,6 +51,12 @@ function WebSearch() {
                 break;
             }
 
+        case "github":
+            {
+                searchURL = "https://github.com";
+                break;
+            }
+
         case "!git":
             {
                 let gitRemainingText = words.slice(1).join(" ");
@@ -60,7 +64,7 @@ function WebSearch() {
                 break;
             }
 
-        case "!pixiv":
+        case "pixiv":
             {
                 let pixivRemainingText = words.slice(1).join(" ");
                 searchURL = "https://www.pixiv.net/en/tags/" + encodeURIComponent(pixivRemainingText);
@@ -74,13 +78,12 @@ function WebSearch() {
                 break;
             }
 
-        case "!wa":
-                {
-                    let waRemainingText = words.slice(1).join(" ");
-                    searchURL = "https://wiki.archlinux.org/index.php?search=" + encodeURIComponent(waRemainingText);
-                    break;
-                }
-        case "!trans":
+        case "ceviri":
+            {
+                searchURL = "https://translate.google.com/";
+                break;
+            }
+        case "!cvr":
             {
                 let translateRemainingText = words.slice(1).join(" ");
                 searchURL = "https://translate.google.com/?sl=auto&tl=tr&text=" + encodeURIComponent(translateRemainingText);
