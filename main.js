@@ -91,7 +91,7 @@ function WebSearch() {
             }
 
             default:
-                searchURL = "https://www.google.com/search?q=" + encodeURIComponent(inputText);
+                searchURL = "https://search.brave.com/search?q=" + encodeURIComponent(inputText);
                 break;
         }
 
