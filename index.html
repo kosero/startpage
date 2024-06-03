@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="item">
-                <input type="text" placeholder="..." id="searchText" onfocus="showSuggestions()" oninput="showSuggestions()" onkeydown="handleKeyDown()">
+                <input type="text" placeholder="..." id="searchText" onfocus="showSuggestions()" oninput="showSuggestions()" onkeydown="if (event.key === 'Enter') WebSearch()">
                 <div id="suggestions" class="suggestions" style="display: none;"></div>
                 <script src="./src/search.js"></script>
             </div>
