@@ -1,5 +1,3 @@
-// src/main.js
-
 // Date and Time
 function showTime() {
 	const date = new Date();
@@ -17,10 +15,3 @@ function showTime() {
 	).innerHTML = `${today}, ${hour}:${minute} - ${day}/${month}/${year}`;
 	setTimeout(showTime, 1000); 
 }
-showTime();
-
-// display focus
-window.onload = function() {
-  document.getElementById("searchText").focus();
-
-};
