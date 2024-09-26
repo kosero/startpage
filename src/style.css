@@ -15,9 +15,9 @@
 }
 
 :root {
-    --bg-color: #121212;
-    --bg-color2: #5e5e5e;
-    --text-color: #a5a5a5; /*#f9f9f9*/
+    --bg-color: #0D0D0D;
+    --bg-color2: #404040;
+    --text-color: #F2F2F2;
     --bg-radius: 10px;
     --margin-var: 15px;
     --padding-var: 15px;
