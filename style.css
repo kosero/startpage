@@ -1,6 +1,6 @@
 @font-face {
     font-family: "JetBrains";
-    src: url(https://kosero.github.io/startpage/src/JetBrains.ttf);
+    src: url(./src/JetBrains.ttf);
 }
 
 :root {
