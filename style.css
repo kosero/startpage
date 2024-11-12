@@ -4,12 +4,12 @@
 }
 
 :root {
-    --background: #282828;
-    --background2: #1d2021;
-    --background3: #3c3836;
-    --text-color: #ebdbb2;
-    --text-color2: #928374;
-    --border-color: #a89984;
+    --background: #1C1B19;
+    --background2: #1C1B19;
+    --background3: #1C1B19;
+    --text-color: #FCE8C3;
+    --text-color2: #BAA67F;
+    --border-color: #BAA67F;
 }
 
 * {
